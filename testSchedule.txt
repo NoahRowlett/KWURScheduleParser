@@ -1,0 +1,207 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+			  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns="http://www.w3.org/1999/xhtml">
+			  <head>
+			  <title>Credit tracker - KWUR Unified Systems</title>
+              <style type="text/css">
+              input.editMode {
+                background-color : #FFFF99;
+              }
+              textarea.editMode {
+                background-color : #FFFF99;
+              }
+              .savingAjaxWithBackground {
+                background-color : #FFFF99;
+              }
+              .superBigSize {
+                font-size: 35px;
+                font-weight: bold;
+              }
+              td.underlinedTD {
+                border-bottom:1px #000000 dashed;
+              }
+              table.infoBox {
+                background-color:#F6F6F6;
+                border:#999999 double 1px;
+                font-size:14px;
+                padding:2px;
+              }
+
+              </style><script src="helperScript.js" type="text/javascript"></script>
+<script src="albumEditing.js" type="text/javascript"></script>
+
+</head>
+<body bgcolor="#eeeeee">
+<table width="100%">
+<tr>
+<td align=left width=500 valign=middle>
+<a href="/ptracker/index.php"><img src='/sptracker.jpg' border="0" /></a><a href="/ctracker/index.php"><img border="0" src='/unicron.jpg' /></a><a href="/archive/index.php"><img border="0" src='/sfuta.png' /></a></td>
+<td align=left ><font face="Helvetica" size="+1"><b>KWUR</b> <font size="+2"><b>UNICRON</b></font> <b>
+: Credit tracker</b></font>
+<br>
+|&nbsp;<A HREF="/ctracker/news.php">Wiki/News</A>&nbsp;|&nbsp;<A HREF="scheduler.php">Schedules</A>&nbsp;|&nbsp;<A HREF="index.php">DJs & Credits</A>&nbsp;|</td>
+<td align=left>
+<IFRAME NAME="listeners" SRC="/current.php" WIDTH=200 HEIGHT=120 ALIGN="top" frameborder=0 scrolling=no></IFRAME>
+</td>
+</tr></table>
+<hr>
+<DIV align="center">|&nbsp;<A HREF="/ctracker/useradmin.php?fxn=userView">My Account/Show Attachments</A>&nbsp;|&nbsp;<A HREF="/ctracker/showadmin.php">Shows and Schedule Attachments</A>&nbsp;|&nbsp;<A HREF="/ctracker/creditor.php">Adjust Credits</A>&nbsp;|&nbsp;<A HREF="authentication.php?logout=1">Logout</A>&nbsp;|<BR></DIV><hr><DIV align="right"><FONT SIZE="-1">Noah Rowlett (bonbon) member since 2011-08-24 21:45:06, last logged in 2014-03-06 01:06:24</FONT></DIV><P><h1>Unicron - Scheduling Subsystem</h1><ul><li><a href="#browse">Browse schedules</a></li><li><a href="#pending">Pending schedule</a></li></ul><a name="browse"><h2>Browse Schedules</h2></a>Select a schedule you wish to view.  Defaults to the currently active schedle.<p><FORM Class="" Name="browseInvoke" Method="Post" Action="scheduler.php" Enctype="multipart/form-data">
+<INPUT Type="Hidden" Name="fxn" Value="browse">
+<SELECT Name="scheduleid">
+<OPTION Value="127">Spring 2014 - 2014-01-27 01:30:09</OPTION>
+<OPTION Value="125">Fall 2013 - 2013-09-24 16:30:36</OPTION>
+<OPTION Value="123">Summer 2013 - 2013-06-16 16:34:11</OPTION>
+<OPTION Value="122">Spring 2013 - 2013-01-21 05:13:15</OPTION>
+<OPTION Value="121">Fall 2012 - 2012-09-16 17:08:21</OPTION>
+<OPTION Value="118">Summer 2012 - 2012-06-12 20:20:25</OPTION>
+<OPTION Value="113">Spring 2012 - 2012-02-02 19:19:50</OPTION>
+<OPTION Value="111">Fall 2011 - 2011-09-22 23:01:11</OPTION>
+<OPTION Value="97">Summer 2011 - 2011-06-08 09:25:50</OPTION>
+<OPTION Value="81">Spring 2011 - 2011-04-13 17:28:17</OPTION>
+<OPTION Value="64">Summer 2010 - 2010-07-23 16:40:43</OPTION>
+<OPTION Value="60">Spring 2010 - 2010-05-08 13:03:46</OPTION>
+<OPTION Value="56">Fall 2009 - 2009-09-18 17:19:38</OPTION>
+<OPTION Value="55">Summer '09 - 2009-05-24 20:40:39</OPTION>
+<OPTION Value="49">Spring '09 - 2009-01-24 15:52:39</OPTION>
+<OPTION Value="43">Fall '08 - 2008-09-17 19:54:56</OPTION>
+<OPTION Value="38">Summer 2008 - 2008-07-05 14:35:13</OPTION>
+<OPTION Value="37">Spring 2008 - 2008-01-26 15:18:24</OPTION>
+<OPTION Value="21">Krokus's Last - 2007-12-06 11:58:47</OPTION>
+<OPTION Value="107"></OPTION>
+<OPTION Value="71"></OPTION>
+</SELECT><INPUT Type="submit" Value="Browse this schedule">
+</FORM>
+<table border="0" cellspacing="0" cellpadding="4"><tr align="left"><th>Time Block</th><th>Show Name</th><th>Genre</th><th>Tagline</th><th>Description</th></tr><tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">0]00:00-00:00</td><td><A HREF="showadmin.php?fxn=showView&showid=216&scheduleid=127">~~Anonymous Broadcast~~</A></td><td>Freeform</td><td>Clearly Terrorist.</td><td>There is no way for us to determine who you are, yet legally we know what is being played.  Actually, since the Man took away the door punch, we can corroborate with with WUPD.  Sorry, Future bin Laden...</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td>0]00:00-05:00</td><td colspan="4">AVAILABLE</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">0]05:00-06:00</td><td><A HREF="showadmin.php?fxn=showView&showid=976&scheduleid=127">wkrp cincinnati</A></td><td>all of it maybe i dunno</td><td></td><td>i don't think i thought this through very well</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td>0]06:00-09:00</td><td colspan="4">AVAILABLE</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">0]09:00-10:00</td><td><A HREF="showadmin.php?fxn=showView&showid=983&scheduleid=127">Carpet Lessons</A></td><td>Wave</td><td>for the frail of heart</td><td>Mostly wave, but may startle with some experimental folk and/or lo-fi punk</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">0]10:00-11:00</td><td><A HREF="showadmin.php?fxn=showView&showid=982&scheduleid=127">Me Time</A></td><td>Wave</td><td>Lots of finds.</td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">0]11:00-12:00</td><td><A HREF="showadmin.php?fxn=showView&showid=980&scheduleid=127">Trapped in the Closet</A></td><td>Oldies and Newies</td><td>Approved by R Kelly</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">0]12:00-13:00</td><td><A HREF="showadmin.php?fxn=showView&showid=891&scheduleid=127">He Said, She Said</A></td><td>Comedy/Eclectic</td><td>The Rumours Are True</td><td>A funky mix of comedy and whatever we feel like. Also music. Ask your mom about it. Your mom loves our show.</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">0]13:00-14:00</td><td><A HREF="showadmin.php?fxn=showView&showid=927&scheduleid=127">If You're Feeling Sinister</A></td><td>Wave</td><td>Mark and Afua Spring 2014</td><td>We're coming back on our worst behavior</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">0]14:00-15:00</td><td><A HREF="showadmin.php?fxn=showView&showid=974&scheduleid=127">Nigiri Sushi in the Dustbin</A></td><td>J-pop/Eclectic</td><td>Join me.</td><td>escaping/not escaping into the vibrating sounds</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">0]15:00-16:00</td><td><A HREF="showadmin.php?fxn=showView&showid=707&scheduleid=127">Youth Culture</A></td><td>Wave</td><td>So Indie-n</td><td>Just some songs and PSAs and stuff with DJ Nair on the Air</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">0]16:00-17:00</td><td><A HREF="showadmin.php?fxn=showView&showid=761&scheduleid=127">Prance With No Pance</A></td><td>ANYTHING WE WANT</td><td>'cause the best way to listen to music is without pance</td><td>theme days. got a suggestion?  pancelessradio.tumblr.com </td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">0]17:00-18:00</td><td><A HREF="showadmin.php?fxn=showView&showid=704&scheduleid=127">Wailing for Wales</A></td><td>Wave</td><td>Ware oh ware have all the whales gone?</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">0]18:00-19:00</td><td><A HREF="showadmin.php?fxn=showView&showid=939&scheduleid=127">The Cab Ride Home</A></td><td></td><td></td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">0]19:00-20:00</td><td><A HREF="showadmin.php?fxn=showView&showid=766&scheduleid=127">two yards, three lenins</A></td><td>Wave</td><td>peace love and ukeleles</td><td>FINALE</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">0]20:00-21:00</td><td><A HREF="showadmin.php?fxn=showView&showid=905&scheduleid=127">Chimerical Kitsch Mafia</A></td><td>Whatever+Errrthang</td><td>the sweater you get for christmas from aunt patty-jo</td><td>a pug dressed like a chiquita banana girl, flirting with a pink plastic flamingo decorating our blue-shutter beach house in Virginia. your hot pink high waisted shorts match your strawberry ice cream cone. i cuff my shorts ever so slightly higher, sneaking in another roll while I suck on my marlboros. you get pink lipstick on the filter of yours. everything's gotta match. except the black denim jacket, of course.</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">0]21:00-22:00</td><td><A HREF="showadmin.php?fxn=showView&showid=867&scheduleid=127">Leaves of Boogie</A></td><td>Rock/Bluegrass/Motown/Folk</td><td>The most beautiful sound in the world</td><td>An eclectic mix of past and present artists who make beautiful music and lyrics. </td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">0]22:00-23:00</td><td><A HREF="showadmin.php?fxn=showView&showid=918&scheduleid=127">Anechoic Chamber</A></td><td>electronic/metal/wave</td><td>to comfort the disturbed and disturb the comfortable</td><td>idm, ambient, dnb, sludge/prog metal, shoegaze, post-rock</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">0]23:00-00:00</td><td><A HREF="showadmin.php?fxn=showView&showid=859&scheduleid=127">Electroconvulsive Therapy</A></td><td>house/trance/techno/dowtempo</td><td>Its mode of action is unknown.</td><td>A different sub-genre of electronic every week! Lots of bleep bloops. </td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">1]00:00-01:00</td><td><A HREF="showadmin.php?fxn=showView&showid=937&scheduleid=127">Mad Tacos (and other exotic dishes)</A></td><td>Wave</td><td>Angry Mexican Food</td><td>Listen if you're ever livid... or like tacos.</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">1]01:00-02:00</td><td><A HREF="showadmin.php?fxn=showView&showid=986&scheduleid=127">Odd Logic</A></td><td>Wave</td><td>one hour with the dirty dales finest</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td>1]02:00-07:00</td><td colspan="4">AVAILABLE</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">1]07:00-08:00</td><td><A HREF="showadmin.php?fxn=showView&showid=856&scheduleid=127">Songs for Bruxists </A></td><td>wave </td><td>always gnashin </td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td>1]08:00-09:00</td><td colspan="4">AVAILABLE</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">1]09:00-10:00</td><td><A HREF="showadmin.php?fxn=showView&showid=960&scheduleid=127">Eternal Tranquility</A></td><td>Downtempo/Trip-hop/post rock</td><td>Sweet, Succulent grooves</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">1]10:00-11:00</td><td><A HREF="showadmin.php?fxn=showView&showid=919&scheduleid=127">Blind Lemon</A></td><td>Blues</td><td></td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td>1]11:00-12:00</td><td colspan="4">AVAILABLE</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">1]12:00-13:00</td><td><A HREF="showadmin.php?fxn=showView&showid=810&scheduleid=127">Where is Donnie?</A></td><td>Wave/Folk</td><td>"Sometimes I doubt your commitment to Sparkle Motion"</td><td>Vote Dukakis.</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">1]13:00-14:00</td><td><A HREF="showadmin.php?fxn=showView&showid=797&scheduleid=127">The Red Coats Are Coming</A></td><td>Wave/Electronic</td><td>21st Century Invasion</td><td>70% Commonwealth 30% Other per show Guaranteed.</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">1]14:00-15:00</td><td><A HREF="showadmin.php?fxn=showView&showid=695&scheduleid=127">Adam's 100% Natural Good Time Family Band Show</A></td><td>Wave</td><td>For your health!</td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">1]15:00-16:00</td><td><A HREF="showadmin.php?fxn=showView&showid=693&scheduleid=127">Guess Who's Bach</A></td><td>Classical</td><td>BACH AGAIN</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">1]16:00-17:00</td><td><A HREF="showadmin.php?fxn=showView&showid=834&scheduleid=127">Thom Yorke's Lazy Eye</A></td><td>wave</td><td>so a seal walks into a club</td><td>We can't bust heads like we used to, but we have our ways. One trick is to tell 'em stories that don't go anywhere - like the time I caught the ferry over to Shelbyville. I needed a new heel for my shoe, so, I decided to go to Morganville, which is what they called Shelbyville in those days. So I tied an onion to my belt, which was the style at the time. Now, to take the ferry cost a nickel, and in those days, nickels had pictures of bumblebees on 'em. Give me five bees for a quarter, you'd say.
+
+Now where were we? Oh yeah: the important thing was I had an onion on my belt, which was the style at the time. They didn't have white onions because of the war. The only thing you could get was those big yellow ones...</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">1]17:00-19:00</td><td><A HREF="showadmin.php?fxn=showView&showid=739&scheduleid=127">The Bruised Orange </A></td><td>New Folk, Old Folk/Country/Blues</td><td>Welcome to the Weekend</td><td>This is the music you need to hear. Join us Friday and jam out to rockabilly, new folk, indie, country western and the best of the rest. </td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">1]19:00-20:00</td><td><A HREF="showadmin.php?fxn=showView&showid=909&scheduleid=127">boogie chillen 2</A></td><td>unknown</td><td>a show in flux</td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">1]20:00-22:00</td><td><A HREF="showadmin.php?fxn=showView&showid=758&scheduleid=127">Full Court Press</A></td><td>Sports Talk/Hip-hop</td><td>Co-Hosted with Dylan Gallagher</td><td>Bringing you the best from the world of sports and hip-hop. We will take your calls at any time to get in on the discussion.</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">1]22:00-00:00</td><td><A HREF="showadmin.php?fxn=showView&showid=887&scheduleid=127">Thought Forge Sundae</A></td><td>metal, etc.</td><td>for discerning tastes</td><td>we stay kvltvred</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">2]00:00-01:00</td><td><A HREF="showadmin.php?fxn=showView&showid=978&scheduleid=127">In the Mood for Luv </A></td><td>R&b</td><td>Sexy-time </td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">2]01:00-02:00</td><td><A HREF="showadmin.php?fxn=showView&showid=966&scheduleid=127">Sin Pantalones</A></td><td>Wave/alt/indie/other</td><td>60% clothed</td><td>"The life which is not pants-less is not worth living." - Socrates</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">2]02:00-03:00</td><td><A HREF="showadmin.php?fxn=showView&showid=985&scheduleid=127">Sleeping Mind</A></td><td>Wave but other stuff 2</td><td>not not music</td><td>we like songs and people come on stop on by</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td>2]03:00-07:00</td><td colspan="4">AVAILABLE</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">2]07:00-08:00</td><td><A HREF="showadmin.php?fxn=showView&showid=1000&scheduleid=127">Sweet Rebellion</A></td><td>Rock</td><td>All I wanted was a Pepsi</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td>2]08:00-09:00</td><td colspan="4">AVAILABLE</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">2]09:00-10:00</td><td><A HREF="showadmin.php?fxn=showView&showid=959&scheduleid=127">Waiting4Stephen</A></td><td>Wave</td><td>Regal</td><td>Still waiting...</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">2]10:00-11:00</td><td><A HREF="showadmin.php?fxn=showView&showid=956&scheduleid=127">The Big Patty Power Hour</A></td><td>Whatever floats my boat</td><td>Selling my time for the low</td><td>I play whatever I feel like because I am an adult</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">2]11:00-12:00</td><td><A HREF="showadmin.php?fxn=showView&showid=946&scheduleid=127">Great Neighbor</A></td><td>Wave/Rock</td><td>wicked jamz... and jellies</td><td>do you like apples?</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">2]12:00-13:00</td><td><A HREF="showadmin.php?fxn=showView&showid=748&scheduleid=127">Everything Sunny All the Time Always</A></td><td>R&B/Wave</td><td>i just wanna dance</td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">2]13:00-14:00</td><td><A HREF="showadmin.php?fxn=showView&showid=781&scheduleid=127">Closed Captioning</A></td><td>Electronic</td><td></td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">2]14:00-15:00</td><td><A HREF="showadmin.php?fxn=showView&showid=961&scheduleid=127">Magnificat</A></td><td>local STL & anything else</td><td>Buck Cherry approves this show.</td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">2]15:00-16:00</td><td><A HREF="showadmin.php?fxn=showView&showid=989&scheduleid=127">Stax of Funk</A></td><td>Funk/Soul/Disco</td><td>Weeeee've go the funk</td><td>Exploring all things groove, the deeper the better.</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">2]16:00-17:00</td><td><A HREF="showadmin.php?fxn=showView&showid=964&scheduleid=127">Spaghetti and Meepos</A></td><td>Indie rock, IDM</td><td>I know you're hungry</td><td>Yum</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">2]17:00-18:00</td><td><A HREF="showadmin.php?fxn=showView&showid=931&scheduleid=127">The Word of Moses</A></td><td>Wave/Eclectic/Freeform/Jazz Goth/Vaporwave/Lil B</td><td>Spend 40 years in the desert one hour at a time</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">2]18:00-19:00</td><td><A HREF="showadmin.php?fxn=showView&showid=940&scheduleid=127">The Cut</A></td><td>metal/wave/electronic/eclectic/experimental</td><td>ur in the cut</td><td>:3</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">2]19:00-20:00</td><td><A HREF="showadmin.php?fxn=showView&showid=908&scheduleid=127">~*DrEaM cLuB*~</A></td><td>Electronic Probs</td><td></td><td>V RARE OPPORTUNITY 2 HEAR WORLD RENOWNED DJ YUNG MO(U)TH PLAY LIVE SETS WEEKLY.  IT'S LIKE UR @ THE CLUB OF UR DREAMZ~~</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">2]20:00-22:00</td><td><A HREF="showadmin.php?fxn=showView&showid=776&scheduleid=127">Butt Vibez</A></td><td>volk</td><td>Can you get behind that?</td><td>broadcasting from one ass to another</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">2]22:00-00:00</td><td><A HREF="showadmin.php?fxn=showView&showid=957&scheduleid=127">Jons' Doughnuts</A></td><td>Airhorns, mostly</td><td>mostly airhorns </td><td>?You are the first and last indigenous Nintendo.? 
+</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">3]00:00-01:00</td><td><A HREF="showadmin.php?fxn=showView&showid=926&scheduleid=127">Audio Job</A></td><td>Eclectic</td><td>WHATEVER I WANT</td><td>A glimpse into my musical taste.</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">3]01:00-02:00</td><td><A HREF="showadmin.php?fxn=showView&showid=991&scheduleid=127">Roscoe's Wetsuit</A></td><td>All Dressed Chips</td><td>Mood Ring</td><td>A physical representation of my current emotional state</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td>3]02:00-05:00</td><td colspan="4">AVAILABLE</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">3]05:00-06:00</td><td><A HREF="showadmin.php?fxn=showView&showid=948&scheduleid=127">Ambivalent About Argon</A></td><td>Wave-y Electrical Indie dis 'n' dat</td><td>Bald Eagles Near Extinction Thanks To Rogaine</td><td>I play da music dat sound so goood. All dem genre sounds be causing inordinate smilez. Wave, Electric, Indie, Reggae, whatnot. Tunez Inz!</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td>3]06:00-08:00</td><td colspan="4">AVAILABLE</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">3]08:00-09:00</td><td><A HREF="showadmin.php?fxn=showView&showid=981&scheduleid=127">Over The Pond And Far Away</A></td><td>Indie/Wave</td><td></td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">3]09:00-10:00</td><td><A HREF="showadmin.php?fxn=showView&showid=862&scheduleid=127">Blue velvet skies and elysian echoes</A></td><td>wave, classical, folk</td><td>It goes by faster if you close your eyes</td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">3]10:00-11:00</td><td><A HREF="showadmin.php?fxn=showView&showid=962&scheduleid=127">1 sloth dances</A></td><td>slothcore</td><td></td><td>jazz, psychedalia, folk, shoegaze, slowcore etc.</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">3]11:00-12:00</td><td><A HREF="showadmin.php?fxn=showView&showid=954&scheduleid=127">2W or not 2W</A></td><td>2wave 4 kwur</td><td>Aye, there's the rub</td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">3]12:00-13:00</td><td><A HREF="showadmin.php?fxn=showView&showid=942&scheduleid=127">Mumbles & Grumbles</A></td><td>Assorted</td><td>Hump day, am I right? </td><td>It's like free food for your ears.</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">3]13:00-14:00</td><td><A HREF="showadmin.php?fxn=showView&showid=934&scheduleid=127">Field Notes</A></td><td>Country/Bluegrass/Folk</td><td>backwoods legit</td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">3]14:00-15:00</td><td><A HREF="showadmin.php?fxn=showView&showid=973&scheduleid=127">Blues Balls</A></td><td>Blues</td><td>These blues will almost make you come</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">3]15:00-16:00</td><td><A HREF="showadmin.php?fxn=showView&showid=678&scheduleid=127">all about eve</A></td><td>biblical</td><td>with EV On The Radio</td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">3]16:00-17:00</td><td><A HREF="showadmin.php?fxn=showView&showid=963&scheduleid=127">Static Dynamics 2.1</A></td><td>Wavetek</td><td>Some minor bug fixes</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">3]17:00-18:00</td><td><A HREF="showadmin.php?fxn=showView&showid=746&scheduleid=127">A Little Bit Country</A></td><td>Country</td><td></td><td>We play a mix of current indie country artists, some legends, and some rare cuts from today's popular artists. </td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">3]18:00-19:00</td><td><A HREF="showadmin.php?fxn=showView&showid=851&scheduleid=127">Gut Feeling</A></td><td>Wave</td><td>"surfin on vibes"</td><td>The enemy is everywhere</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">3]19:00-20:00</td><td><A HREF="showadmin.php?fxn=showView&showid=751&scheduleid=127">bACKpACK</A></td><td>bodacious bedroom bangerz</td><td>hop in</td><td>tune in to da airwavez four sum ergonomic bedroom jamz. </td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">3]20:00-22:00</td><td><A HREF="showadmin.php?fxn=showView&showid=745&scheduleid=127">Peace, Love & Soul</A></td><td>Jam Band/Blues/Jazz/Eclectic</td><td>Sweetback and Rebennack bring the Superfly Jams and the hardcore Phunk</td><td>Sweetback and Rebennack bring the Superfly Jams and the hardcore Phunk. From the Grateful Dead to Thelonious Monk back to Louis Armstrong, Wilson Pickett, Muddy Waters, Frank Zappa, and the New Orleans Klezmer AllStars, we come to pump up the jam.
+The Revolution will be no rerun, brothers.  The Revolution will be Live.
+We bring you Peace, Love & Sooouuul...</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">3]22:00-00:00</td><td><A HREF="showadmin.php?fxn=showView&showid=839&scheduleid=127">Moody's Point</A></td><td>Wave</td><td>Disappearing sounds from a hot air balloon</td><td>Bismarck! Bismarck! Bismarck!</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">4]00:00-01:00</td><td><A HREF="showadmin.php?fxn=showView&showid=913&scheduleid=127">For Your Health</A></td><td>rap/jazz/bleeps</td><td>listen ya dingus</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">4]01:00-02:00</td><td><A HREF="showadmin.php?fxn=showView&showid=994&scheduleid=127">Grush King</A></td><td>Sports Talk Radio</td><td></td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td>4]02:00-08:00</td><td colspan="4">AVAILABLE</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">4]08:00-09:00</td><td><A HREF="showadmin.php?fxn=showView&showid=995&scheduleid=127">Snooze Flash</A></td><td>Electronic</td><td>Wake up and hit the snooze</td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">4]09:00-10:00</td><td><A HREF="showadmin.php?fxn=showView&showid=830&scheduleid=127">The Monotone Hour</A></td><td>Punk, Wave</td><td>Why have multiple tones when you could just have one.</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">4]10:00-11:00</td><td><A HREF="showadmin.php?fxn=showView&showid=1005&scheduleid=127">Char Lane Beats</A></td><td>depends on the day</td><td></td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">4]11:00-12:00</td><td><A HREF="showadmin.php?fxn=showView&showid=1002&scheduleid=127">Vibes and Stuff</A></td><td>Jazz</td><td>Cool Jazz</td><td>Good mix of old and new jazz. As well as some fusion and maybe some rap.</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">4]12:00-13:00</td><td><A HREF="showadmin.php?fxn=showView&showid=953&scheduleid=127">Happy Hour</A></td><td>all of duh above</td><td>free drunks yall</td><td>got that Big Willy Style you know</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">4]13:00-14:00</td><td><A HREF="showadmin.php?fxn=showView&showid=1001&scheduleid=127">pork shoulder</A></td><td>world etc. </td><td>full-flavored satisfaction</td><td>a little fahrt, a little munchen</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">4]14:00-15:00</td><td><A HREF="showadmin.php?fxn=showView&showid=1003&scheduleid=127">The Accidental Radio Show</A></td><td>Probably not</td><td>Brought to you by a series of tubes</td><td>There's a pun somewhere in here...</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">4]15:00-16:00</td><td><A HREF="showadmin.php?fxn=showView&showid=979&scheduleid=127">Cruising Altitude</A></td><td>Wave</td><td>Please keep your seatbelt fastened.</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">4]16:00-17:00</td><td><A HREF="showadmin.php?fxn=showView&showid=836&scheduleid=127">Libs 'n' Stadt in da trap</A></td><td>indie/wave/whatever</td><td>But minus Libs cause she's in "spain." COOL LIBS.</td><td>So you agree, you think you're really pretty.</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">4]17:00-18:00</td><td><A HREF="showadmin.php?fxn=showView&showid=952&scheduleid=127">Salvador Dali Parton</A></td><td>Artcore</td><td></td><td>Still lives moving fast with DJ Flavin Flav</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">4]18:00-19:00</td><td><A HREF="showadmin.php?fxn=showView&showid=933&scheduleid=127">$p!nspiration</A></td><td>wave,electronic,hip-hop</td><td>we don't sleep so listen </td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">4]19:00-20:00</td><td><A HREF="showadmin.php?fxn=showView&showid=700&scheduleid=127">Pancakes for Dinner</A></td><td>electronic noise, etc</td><td>Sweet, sticky sounds </td><td>with extra syrup of course</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">4]20:00-22:00</td><td><A HREF="showadmin.php?fxn=showView&showid=896&scheduleid=127">Redio Sound Waves.</A></td><td>Talk/Latin</td><td>The revolution will not be televised!</td><td>Tune in for the latest news on the death throes of capitalism the world over. Join in the fight and be informed! Check out music from the deep and unknown South. </td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">4]22:00-00:00</td><td><A HREF="showadmin.php?fxn=showView&showid=999&scheduleid=127">Blue Machines</A></td><td>everything/anything</td><td>from sad to shinin'</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">5]00:00-01:00</td><td><A HREF="showadmin.php?fxn=showView&showid=943&scheduleid=127">Creature Feature</A></td><td>Hip Hop/Folk/Indie</td><td>Music for animals, etc.</td><td>When you go to the beach and fall asleep in your lawn chair and it gets carried out by the waves and you wake up in R. Kelly's house. pahtay.</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">5]01:00-02:00</td><td><A HREF="showadmin.php?fxn=showView&showid=988&scheduleid=127">Extinct Tomorrow</A></td><td>Electronic, Beats</td><td>Brought to you by tomorrow's extinct</td><td>The rhythms and sounds of tomorrow, brought to you from a future of certain doom. Our tunes range from indie dance to deep house to trip hop, with echoes of disco and jazz.</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td>5]02:00-09:00</td><td colspan="4">AVAILABLE</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">5]09:00-10:00</td><td><A HREF="showadmin.php?fxn=showView&showid=890&scheduleid=127">The Great Outdoors</A></td><td>Folksy Wavy Stuff</td><td>Go Outside</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">5]10:00-11:00</td><td><A HREF="showadmin.php?fxn=showView&showid=925&scheduleid=127">All These Colors Will Change</A></td><td>Wave/Folk</td><td>Before you were born, I was already sinning. </td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">5]11:00-12:00</td><td><A HREF="showadmin.php?fxn=showView&showid=916&scheduleid=127">Sideways</A></td><td>Wave</td><td>A new way to hear things</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">5]12:00-13:00</td><td><A HREF="showadmin.php?fxn=showView&showid=911&scheduleid=127">SchwartzCenter</A></td><td>Sports Talk</td><td>Hanging out and talking sports.</td><td>Chatting about sports of all kinds, so feel free to call in to the show. I may or may not be interested in what you have to say.</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">5]13:00-14:00</td><td><A HREF="showadmin.php?fxn=showView&showid=947&scheduleid=127">Covering the Bases</A></td><td>Sports Talk Show</td><td></td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">5]14:00-15:00</td><td><A HREF="showadmin.php?fxn=showView&showid=965&scheduleid=127">Bedtime Sports with Brad & Stats Adam</A></td><td>Sports </td><td>KWUR's Premier Sports Talk Radio Show</td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">5]15:00-16:00</td><td><A HREF="showadmin.php?fxn=showView&showid=968&scheduleid=127">off Main Street</A></td><td>Wave</td><td>you can't miss us</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">5]16:00-17:00</td><td><A HREF="showadmin.php?fxn=showView&showid=633&scheduleid=127">Rock to Country Blues to Funky </A></td><td>Folk/ Wave</td><td></td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">5]17:00-18:00</td><td><A HREF="showadmin.php?fxn=showView&showid=936&scheduleid=127">The Fabian Society</A></td><td>punk/wave</td><td>we"ll get to the revolution eventually</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">5]18:00-19:00</td><td><A HREF="showadmin.php?fxn=showView&showid=813&scheduleid=127">Weird Turn Pro</A></td><td>Wave, Experimental</td><td>70% less melody, same great taste</td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">5]19:00-20:00</td><td><A HREF="showadmin.php?fxn=showView&showid=935&scheduleid=127">Hermie and Onion's Idea of Higher Education in the Greater Midwest</A></td><td>Wave+Hiphop+Whatevah</td><td>Things Don't Run We</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">5]20:00-21:00</td><td><A HREF="showadmin.php?fxn=showView&showid=1004&scheduleid=127">Crujiente</A></td><td>Lots of Stuff</td><td></td><td>Relax and Enjoy. Reflect and Conjecture. Live.</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">5]21:00-22:00</td><td><A HREF="showadmin.php?fxn=showView&showid=967&scheduleid=127">You Go Glen Coco</A></td><td>candy canes</td><td>and none for Gretchen Weiners</td><td></td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">5]22:00-00:00</td><td><A HREF="showadmin.php?fxn=showView&showid=914&scheduleid=127">We Killed The Wiggles</A></td><td>Wave/Electronic</td><td>Dispelling Mediocrity Everywhere</td><td>Join us on this journey into the obscure brand of beauty.</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td>6]00:00-09:00</td><td colspan="4">AVAILABLE</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">6]09:00-10:00</td><td>A HREF="showadmin.php?fxn=showView&showid=987&scheduleid=127">Flying Fantasies</A></td><td>Alternative, Chillwave, Classical, Electronic </td><td>Keep your head in the clouds</td><td></td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">6]10:00-11:00</td><td><A HREF="showadmin.php?fxn=showView&showid=920&scheduleid=127">Churros con Chaturvedi</A></td><td>House and more</td><td>Music so good, tastes like chocolate</td><td>Only the best with DJ MC</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">6]11:00-14:00</td><td><A HREF="showadmin.php?fxn=showView&showid=157&scheduleid=127">Musica Esoterica</A></td><td>Classical</td><td>(mostly) unfamiliar classical music, from the last station in St. Louis with local classical DJs</td><td>Classical music of all genres and eras, with emphasis on neglected and unfamiliar works.  The last terrestrial new release classical music radio show in St. Louis.</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">6]14:00-15:00</td><td><A HREF="showadmin.php?fxn=showView&showid=971&scheduleid=127">The Key of C</A></td><td>whatever floats my boat</td><td>Enjoy the Airwaves</td><td>wave, rock, jazz, blues and whatever else i am listening to at the moment</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">6]15:00-16:00</td><td><A HREF="showadmin.php?fxn=showView&showid=938&scheduleid=127">The Adventures of a Rogue Logger</A></td><td>wave</td><td></td><td>I am  closet member of the A$AP Mob and I dig jam bands.</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">6]16:00-17:00</td><td><A HREF="showadmin.php?fxn=showView&showid=871&scheduleid=127">The Cosmic Redundancy Rides Again!</A></td><td>Stupid fresh</td><td>A wine and cheese party on fire with midgets.</td><td>Ryan and I bring you the latest in news, music and newsic. Brought to you by Mr. Johnson's Magic Sunshine Oil. Now enriched with mustard!</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">6]17:00-18:00</td><td><A HREF="showadmin.php?fxn=showView&showid=928&scheduleid=127">Beneficial Cabbagepatch</A></td><td>Various</td><td>Elementary my dear Watson</td><td>video game music, TV&movie soundtracks, showtunes </td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">6]18:00-19:00</td><td><A HREF="showadmin.php?fxn=showView&showid=945&scheduleid=127">Astral Projection</A></td><td>Electronic/Wave</td><td>OBE</td><td>a lot of progressive house, trance, 110, trap, electrohouse and dance, but really whatever i'm in the mood to listen to at that moment</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">6]19:00-20:00</td><td><A HREF="showadmin.php?fxn=showView&showid=932&scheduleid=127">Carlotta Valdes Radio</A></td><td>Whatever I want</td><td>Listen to me</td><td>   </td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">6]20:00-21:00</td><td><A HREF="showadmin.php?fxn=showView&showid=838&scheduleid=127">Meowsic to Your Ears</A></td><td>Wave</td><td>With DJ Squid and Dr. Dre</td><td>mostly alternative, indie/rock music</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">6]21:00-22:00</td><td><A HREF="showadmin.php?fxn=showView&showid=992&scheduleid=127">surprise party</A></td><td>everything, anything, and most all things</td><td>you never know what you're gonna hear next</td><td>fiesta!</td></tr>
+<tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">6]22:00-23:00</td><td><A HREF="showadmin.php?fxn=showView&showid=949&scheduleid=127">Ataraxia</A></td><td>jazz/classical/punk/anything</td><td>mood music</td><td>Ataraxia- n.
+a state of freedom from emotional disturbance and anxiety; tranquillity.</td></tr>
+<tr valign="top" bgcolor="#FFFFFF"><td nowrap="1">6]23:00-00:00</td><td><A HREF="showadmin.php?fxn=showView&showid=993&scheduleid=127">Casual Bowtie</A></td><td>HipHop/Indie</td><td>Avant-garde audiophile</td><td>Playing that hipster shyt</td></tr>
+</table><A Name="pending"><H2>Pending Schedule</H2></A>This schedule is generated on the fly from the current show attachments and current credit standings.  Unscheduled time periods are labeled with AVAILABLE.  Please note that scheduling is subject to the following constraints:<P><UL><LI>The next schedule will be named <INPUT Type="text" name="name" value="(Next generation schedule)"></LI>
+<LI>People with more than <INPUT Type="text" name="cutoffCredits"> credits must schedule their shows before <INPUT Type="text" Name="cutoffDate"> (yyyy-mm-dd hh:mm:ss)</LI>
+<LI>Blocks of length <INPUT Type="text" name="blockLength"> minutes will be enforced during these time periods:<BR><TEXTAREA Rows="5" Name="blockedPeriods"></TEXTAREA></LI>
+
+</ul><P>The following problems were encountered during scheduling. Owners of these shows please correct malformed showtimes and/or adjust your requested times to one of the available positions<br><ul></li></ul><table border="0" cellspacing="0" cellpadding="4"><tr align="left"><th>Time Block</th><th>Show Name</th><th>Genre</th><th>Tagline</th><th>Description</th></tr><tr valign="top" bgcolor="#DDDDDD"><td nowrap="1">0]00:00-00:00</td><td colspan="4">AVAILABLE</td></tr>
+</table><P>Shows were ranked in the following order sorted by the credits of the attached DJ with the most credits, ties broken by whoever attached their show to the schedule first.  DJs attached to multiple shows had their credits evenly divided amoung each show <i>before</i> determining the schedule.<br><br><br><hr>Page generated in 0.148566 microseconds
